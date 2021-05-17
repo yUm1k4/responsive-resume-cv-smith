@@ -31,7 +31,7 @@
 
         <title>Zainudin Abdullah - CV Resume</title>
     </head>
-    <body>
+    <body >
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
@@ -95,7 +95,6 @@
                 <div class="resume__left">
                     <!--========== HOME ==========-->
                     <section class="home" id="home">
-                        <!-- Theme change button -->
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
                                 <img src="assets/img/zain-image.jpg" alt="" class="home__img">
@@ -103,7 +102,6 @@
                                 <h1 class="home__title">ZAINUDIN <b>ABDULLAH</b></h1>
                                 <h3 class="home__profession">Web Developer</h3>
                             
-                                <!-- Button to generate and download the pdf. Available for desktop. -->
                                 <div class="">
                                     <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
                                 </div>
@@ -121,6 +119,12 @@
                                 </span>
                             </div>
                         </div>
+
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
                     </section>          
                     
                     <!--========== SOCIAL ==========-->
@@ -388,7 +392,9 @@
         </main>
 
         <!--========== SCROLL TOP ==========-->
-        
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
 
         <!--========== HTML2PDF ==========-->
         <script src="assets/js/html2pdf.bundle.min.js"></script>
