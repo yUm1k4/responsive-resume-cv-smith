@@ -386,7 +386,8 @@ img {
 
 /*========== SOCIAL ==========*/
 .social__container {
-  grid-template-columns: max-content;
+  /* grid-template-columns: max-content; */
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
