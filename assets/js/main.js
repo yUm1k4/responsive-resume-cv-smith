@@ -107,9 +107,9 @@ let resumeButton = document.getElementById('resume-button')
 
 
 // Function to call areaCv and Html2Pdf options 
-function generateResume() {
-    html2pdf(areaCv)
-}
+// function generateResume() {
+//     html2pdf(areaCv)
+// }
 
 // When the button is clicked, it executes the three functions
 resumeButton.addEventListener('click', () => {
